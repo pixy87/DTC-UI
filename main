@@ -14,38 +14,39 @@ local UICorner_3 = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local UICorner_4 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
-local UICorner_5 = Instance.new("UICorner")
 local _1000Gravity = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
 local NormalGravity = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
 local AutoChina = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local Mainframe_2 = Instance.new("Frame")
+local UICorner_5 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
-local UICorner_9 = Instance.new("UICorner")
+local UICorner_6 = Instance.new("UICorner")
+local Mainframe_2 = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
-local UICorner_10 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
+local TextLabel_5 = Instance.new("TextLabel")
+local UICorner_8 = Instance.new("UICorner")
 local Close_2 = Instance.new("TextButton")
-local UICorner_11 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local TP1 = Instance.new("TextButton")
-local UICorner_12 = Instance.new("UICorner")
+local UICorner_10 = Instance.new("UICorner")
 local TP2 = Instance.new("TextButton")
-local UICorner_13 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
 local TP = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_12 = Instance.new("UICorner")
 local TP3 = Instance.new("TextButton")
-local UICorner_15 = Instance.new("UICorner")
+local UICorner_13 = Instance.new("UICorner")
 local TP4 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
+local UICorner_14 = Instance.new("UICorner")
 local TP5 = Instance.new("TextButton")
-local UICorner_17 = Instance.new("UICorner")
+local UICorner_15 = Instance.new("UICorner")
 local TP6 = Instance.new("TextButton")
-local UICorner_18 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local TP7 = Instance.new("TextButton")
-local UICorner_19 = Instance.new("UICorner")
+local UICorner_17 = Instance.new("UICorner")
 local TP1_2 = Instance.new("TextButton")
-local UICorner_20 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local TextLabel_6 = Instance.new("TextLabel")
+local UICorner_19 = Instance.new("UICorner")
 
 --Properties:
 
@@ -67,8 +68,8 @@ DestroyTerrain.Parent = Mainframe
 DestroyTerrain.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 DestroyTerrain.BorderColor3 = Color3.fromRGB(0, 0, 0)
 DestroyTerrain.BorderSizePixel = 0
-DestroyTerrain.Position = UDim2.new(-0.00524402037, 0, 0.237214193, 0)
-DestroyTerrain.Size = UDim2.new(0.999999046, 0, 0.287186444, 0)
+DestroyTerrain.Position = UDim2.new(-2.64318751e-05, 0, 0.237214163, 0)
+DestroyTerrain.Size = UDim2.new(0.994781435, 0, 0.287186444, 0)
 DestroyTerrain.Font = Enum.Font.SourceSans
 DestroyTerrain.Text = "Delete Terrain"
 DestroyTerrain.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -82,8 +83,8 @@ Blackhole.Parent = Mainframe
 Blackhole.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 Blackhole.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Blackhole.BorderSizePixel = 0
-Blackhole.Position = UDim2.new(-0.00524402037, 0, 0.718618393, 0)
-Blackhole.Size = UDim2.new(0.999999046, 0, 0.198668525, 0)
+Blackhole.Position = UDim2.new(-2.64318751e-05, 0, 0.718618393, 0)
+Blackhole.Size = UDim2.new(0.994781435, 0, 0.198668525, 0)
 Blackhole.Font = Enum.Font.SourceSans
 Blackhole.Text = "Enter Blackhole Facility"
 Blackhole.TextColor3 = Color3.fromRGB(255, 255, 255)
@@ -135,9 +136,6 @@ Close.Text = "X"
 Close.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close.TextSize = 14.000
 
-UICorner_5.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_5.Parent = Mainframe
-
 _1000Gravity.Name = "1000 Gravity"
 _1000Gravity.Parent = Mainframe
 _1000Gravity.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
@@ -150,9 +148,6 @@ _1000Gravity.Text = "1000 Gravity"
 _1000Gravity.TextColor3 = Color3.fromRGB(255, 255, 255)
 _1000Gravity.TextSize = 14.000
 
-UICorner_6.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_6.Parent = _1000Gravity
-
 NormalGravity.Name = "Normal Gravity"
 NormalGravity.Parent = Mainframe
 NormalGravity.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
@@ -164,9 +159,6 @@ NormalGravity.Font = Enum.Font.SourceSans
 NormalGravity.Text = "Normal Gravity"
 NormalGravity.TextColor3 = Color3.fromRGB(255, 255, 255)
 NormalGravity.TextSize = 14.000
-
-UICorner_7.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_7.Parent = NormalGravity
 
 AutoChina.Name = "AutoChina"
 AutoChina.Parent = Mainframe
@@ -181,8 +173,24 @@ AutoChina.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoChina.TextSize = 14.000
 AutoChina.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_8.Parent = AutoChina
+UICorner_5.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_5.Parent = AutoChina
+
+TextLabel_3.Parent = Mainframe
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(9.55368932e-07, 0, 0.994900167, 0)
+TextLabel_3.Size = UDim2.new(0.999999046, 0, 0.0678854957, 0)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = ".gg/Z27qf4vNZC"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 10.000
+TextLabel_3.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_6.Parent = TextLabel_3
 
 Mainframe_2.Name = "Mainframe"
 Mainframe_2.Parent = DTCUIV1
@@ -194,35 +202,35 @@ Mainframe_2.Selectable = true
 Mainframe_2.Size = UDim2.new(0.186560109, 0, 0.411649942, 0)
 Mainframe_2.Visible = false
 
-TextLabel_3.Parent = Mainframe_2
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(9.60379793e-07, 0, 5.73638701e-08, 0)
-TextLabel_3.Size = UDim2.new(0.999999106, 0, 0.114303477, 0)
-TextLabel_3.Font = Enum.Font.SourceSans
-TextLabel_3.Text = "Blackhole Facility - DTC"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextSize = 14.000
-
-UICorner_9.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_9.Parent = TextLabel_3
-
 TextLabel_4.Parent = Mainframe_2
-TextLabel_4.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
 TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(9.55368932e-07, 0, 0.112782083, 0)
-TextLabel_4.Size = UDim2.new(0.999999046, 0, 0.124432176, 0)
+TextLabel_4.Position = UDim2.new(9.60379793e-07, 0, 5.73638701e-08, 0)
+TextLabel_4.Size = UDim2.new(0.999999106, 0, 0.114303477, 0)
 TextLabel_4.Font = Enum.Font.SourceSans
-TextLabel_4.Text = "Make an comment on scriptblox @unseen or make an issue on github"
+TextLabel_4.Text = "Blackhole Facility - DTC"
 TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_4.TextScaled = true
-TextLabel_4.TextSize = 10.000
-TextLabel_4.TextWrapped = true
+TextLabel_4.TextSize = 14.000
 
-UICorner_10.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_10.Parent = TextLabel_4
+UICorner_7.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_7.Parent = TextLabel_4
+
+TextLabel_5.Parent = Mainframe_2
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(9.55368932e-07, 0, 0.112782083, 0)
+TextLabel_5.Size = UDim2.new(0.999999046, 0, 0.124432176, 0)
+TextLabel_5.Font = Enum.Font.SourceSans
+TextLabel_5.Text = "Make an comment on scriptblox @unseen or make an issue on github"
+TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 10.000
+TextLabel_5.TextWrapped = true
+
+UICorner_8.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_8.Parent = TextLabel_5
 
 Close_2.Name = "Close"
 Close_2.Parent = Mainframe_2
@@ -236,147 +244,163 @@ Close_2.Text = "X"
 Close_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 Close_2.TextSize = 14.000
 
-UICorner_11.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_11.Parent = Mainframe_2
+UICorner_9.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_9.Parent = Mainframe_2
 
 TP1.Name = "TP1"
 TP1.Parent = Mainframe_2
 TP1.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP1.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP1.BorderSizePixel = 0
-TP1.Position = UDim2.new(-0.0104616089, 0, 0.237214163, 0)
-TP1.Size = UDim2.new(1.0052166, 0, 0.0959921032, 0)
+TP1.Position = UDim2.new(0.0260615107, 0, 0.237214163, 0)
+TP1.Size = UDim2.new(0.968693495, 0, 0.0959921032, 0)
 TP1.Font = Enum.Font.SourceSans
 TP1.Text = "Enter Facility"
 TP1.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP1.TextSize = 14.000
 
-UICorner_12.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_12.Parent = TP1
+UICorner_10.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_10.Parent = TP1
 
 TP2.Name = "TP2"
 TP2.Parent = Mainframe_2
 TP2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP2.BorderSizePixel = 0
-TP2.Position = UDim2.new(-0.0104616089, 0, 0.324673831, 0)
-TP2.Size = UDim2.new(1.0052166, 0, 0.0959919766, 0)
+TP2.Position = UDim2.new(0.0260615107, 0, 0.324673831, 0)
+TP2.Size = UDim2.new(0.968693495, 0, 0.0959919766, 0)
 TP2.Font = Enum.Font.SourceSans
 TP2.Text = "CargoBayStart"
 TP2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP2.TextSize = 14.000
 
-UICorner_13.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_13.Parent = TP2
+UICorner_11.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_11.Parent = TP2
 
 TP.Name = "TP"
 TP.Parent = Mainframe_2
 TP.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP.BorderSizePixel = 0
-TP.Position = UDim2.new(-0.0104616089, 0, 0.417278022, 0)
-TP.Size = UDim2.new(1.0052166, 0, 0.0959921032, 0)
+TP.Position = UDim2.new(0.0260615107, 0, 0.417278022, 0)
+TP.Size = UDim2.new(0.968693495, 0, 0.0959921032, 0)
 TP.Font = Enum.Font.SourceSans
 TP.Text = "CargoBayEnd"
 TP.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP.TextSize = 14.000
 
-UICorner_14.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_14.Parent = TP
+UICorner_12.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_12.Parent = TP
 
 TP3.Name = "TP3"
 TP3.Parent = Mainframe_2
 TP3.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP3.BorderSizePixel = 0
-TP3.Position = UDim2.new(-0.0104616089, 0, 0.509882271, 0)
-TP3.Size = UDim2.new(1.0052166, 0, 0.0959921032, 0)
+TP3.Position = UDim2.new(0.0260615107, 0, 0.509882271, 0)
+TP3.Size = UDim2.new(0.968693495, 0, 0.0959921032, 0)
 TP3.Font = Enum.Font.SourceSans
 TP3.Text = "SecurityTrigger"
 TP3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP3.TextSize = 14.000
 
-UICorner_15.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_15.Parent = TP3
+UICorner_13.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_13.Parent = TP3
 
 TP4.Name = "TP4"
 TP4.Parent = Mainframe_2
 TP4.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP4.BorderSizePixel = 0
-TP4.Position = UDim2.new(-0.0104616089, 0, 0.60248661, 0)
-TP4.Size = UDim2.new(1.0052166, 0, 0.0959921032, 0)
+TP4.Position = UDim2.new(0.0260615107, 0, 0.60248661, 0)
+TP4.Size = UDim2.new(0.968693495, 0, 0.0959921032, 0)
 TP4.Font = Enum.Font.SourceSans
 TP4.Text = "BlastDoor"
 TP4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP4.TextSize = 14.000
 
-UICorner_16.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_16.Parent = TP4
+UICorner_14.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_14.Parent = TP4
 
 TP5.Name = "TP5"
 TP5.Parent = Mainframe_2
 TP5.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP5.BorderSizePixel = 0
-TP5.Position = UDim2.new(-0.0104616089, 0, 0.705380261, 0)
-TP5.Size = UDim2.new(1.0052166, 0, 0.095992066, 0)
+TP5.Position = UDim2.new(0.0260615107, 0, 0.705380261, 0)
+TP5.Size = UDim2.new(0.968693495, 0, 0.095992066, 0)
 TP5.Font = Enum.Font.SourceSans
 TP5.Text = "ControlRoomEnter"
 TP5.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP5.TextSize = 14.000
 
-UICorner_17.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_17.Parent = TP5
+UICorner_15.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_15.Parent = TP5
 
 TP6.Name = "TP6"
 TP6.Parent = Mainframe_2
 TP6.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP6.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP6.BorderSizePixel = 0
-TP6.Position = UDim2.new(-0.0104616089, 0, 0.797984481, 0)
-TP6.Size = UDim2.new(1.0052166, 0, 0.095992066, 0)
+TP6.Position = UDim2.new(0.0260615107, 0, 0.797984481, 0)
+TP6.Size = UDim2.new(0.968693495, 0, 0.095992066, 0)
 TP6.Font = Enum.Font.SourceSans
 TP6.Text = "BlackHoleAbsorb"
 TP6.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP6.TextSize = 14.000
 
-UICorner_18.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_18.Parent = TP6
+UICorner_16.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_16.Parent = TP6
 
 TP7.Name = "TP7"
 TP7.Parent = Mainframe_2
 TP7.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP7.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP7.BorderSizePixel = 0
-TP7.Position = UDim2.new(-0.0104616089, 0, 0.89058876, 0)
-TP7.Size = UDim2.new(1.0052166, 0, 0.0959920958, 0)
+TP7.Position = UDim2.new(0.0260615107, 0, 0.89058876, 0)
+TP7.Size = UDim2.new(0.968693495, 0, 0.0959920958, 0)
 TP7.Font = Enum.Font.SourceSans
 TP7.Text = "EscapeDetect"
 TP7.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP7.TextSize = 14.000
 
-UICorner_19.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_19.Parent = TP7
+UICorner_17.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_17.Parent = TP7
 
 TP1_2.Name = "TP1"
 TP1_2.Parent = Mainframe_2
 TP1_2.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
 TP1_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TP1_2.BorderSizePixel = 0
-TP1_2.Position = UDim2.new(-0.0104616089, 0, 0.237214163, 0)
-TP1_2.Size = UDim2.new(1.0052166, 0, 0.0959921032, 0)
+TP1_2.Position = UDim2.new(-2.64318751e-05, 0, 0.237214163, 0)
+TP1_2.Size = UDim2.new(0.994781435, 0, 0.0959921032, 0)
 TP1_2.Font = Enum.Font.SourceSans
 TP1_2.Text = "Enter Facility"
 TP1_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TP1_2.TextSize = 14.000
 
-UICorner_20.CornerRadius = UDim.new(0.0500000007, 0)
-UICorner_20.Parent = TP1_2
+UICorner_18.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_18.Parent = TP1_2
+
+TextLabel_6.Parent = Mainframe_2
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(80, 80, 80)
+TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(9.55368932e-07, 0, 0.112782083, 0)
+TextLabel_6.Size = UDim2.new(0.999999046, 0, 0.124432176, 0)
+TextLabel_6.Font = Enum.Font.SourceSans
+TextLabel_6.Text = "Make an comment on scriptblox @unseen or make an issue on github"
+TextLabel_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.TextScaled = true
+TextLabel_6.TextSize = 10.000
+TextLabel_6.TextWrapped = true
+
+UICorner_19.CornerRadius = UDim.new(0.0500000007, 0)
+UICorner_19.Parent = TextLabel_6
 
 -- Scripts:
 
-local function SAQG_fake_script() -- DestroyTerrain.LocalScript 
+local function WEDOF_fake_script() -- DestroyTerrain.LocalScript 
 	local script = Instance.new('LocalScript', DestroyTerrain)
 
 	script.Parent.Activated:Connect(function()
@@ -387,8 +411,8 @@ local function SAQG_fake_script() -- DestroyTerrain.LocalScript
 	
 	
 end
-coroutine.wrap(SAQG_fake_script)()
-local function SNOSVC_fake_script() -- Blackhole.LocalScript 
+coroutine.wrap(WEDOF_fake_script)()
+local function FSRP_fake_script() -- Blackhole.LocalScript 
 	local script = Instance.new('LocalScript', Blackhole)
 
 	local TeleportService = game:GetService("TeleportService")
@@ -402,16 +426,16 @@ local function SNOSVC_fake_script() -- Blackhole.LocalScript
 		TeleportService:Teleport(Place, player)
 	end)
 end
-coroutine.wrap(SNOSVC_fake_script)()
-local function SIZBHRB_fake_script() -- Close.LocalScript 
+coroutine.wrap(FSRP_fake_script)()
+local function MLFDH_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.Activated:Connect(function()
 	script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(SIZBHRB_fake_script)()
-local function OLSH_fake_script() -- _1000Gravity.LocalScript 
+coroutine.wrap(MLFDH_fake_script)()
+local function SRARRAY_fake_script() -- _1000Gravity.LocalScript 
 	local script = Instance.new('LocalScript', _1000Gravity)
 
 	script.Parent.Activated:Connect(function()
@@ -420,8 +444,8 @@ local function OLSH_fake_script() -- _1000Gravity.LocalScript
 	
 	
 end
-coroutine.wrap(OLSH_fake_script)()
-local function YPGTZSJ_fake_script() -- NormalGravity.LocalScript 
+coroutine.wrap(SRARRAY_fake_script)()
+local function XBOE_fake_script() -- NormalGravity.LocalScript 
 	local script = Instance.new('LocalScript', NormalGravity)
 
 	script.Parent.Activated:Connect(function()
@@ -430,8 +454,8 @@ local function YPGTZSJ_fake_script() -- NormalGravity.LocalScript
 	
 	
 end
-coroutine.wrap(YPGTZSJ_fake_script)()
-local function QUCUHK_fake_script() -- AutoChina.LocalScript 
+coroutine.wrap(XBOE_fake_script)()
+local function NESSHHW_fake_script() -- AutoChina.LocalScript 
 	local script = Instance.new('LocalScript', AutoChina)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -443,80 +467,80 @@ local function QUCUHK_fake_script() -- AutoChina.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QUCUHK_fake_script)()
-local function RKPX_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(NESSHHW_fake_script)()
+local function YVNAKP_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.Activated:Connect(function()
 	script.Parent.Parent.Parent:Destroy()
 	end)
 end
-coroutine.wrap(RKPX_fake_script)()
-local function YRHZVW_fake_script() -- TP1.LocalScript 
+coroutine.wrap(YVNAKP_fake_script)()
+local function FKIORXS_fake_script() -- TP1.LocalScript 
 	local script = Instance.new('LocalScript', TP1)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.FacilityEntered.CFrame
 	end)
 end
-coroutine.wrap(YRHZVW_fake_script)()
-local function EENN_fake_script() -- TP2.LocalScript 
+coroutine.wrap(FKIORXS_fake_script)()
+local function BFDXC_fake_script() -- TP2.LocalScript 
 	local script = Instance.new('LocalScript', TP2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.CargoBayStart.CFrame
 	end)
 end
-coroutine.wrap(EENN_fake_script)()
-local function FATEUB_fake_script() -- TP.LocalScript 
+coroutine.wrap(BFDXC_fake_script)()
+local function CZLY_fake_script() -- TP.LocalScript 
 	local script = Instance.new('LocalScript', TP)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.CargoBayEnd.CFrame
 	end)
 end
-coroutine.wrap(FATEUB_fake_script)()
-local function EROPQE_fake_script() -- TP3.LocalScript 
+coroutine.wrap(CZLY_fake_script)()
+local function VCISYS_fake_script() -- TP3.LocalScript 
 	local script = Instance.new('LocalScript', TP3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.SecurityTrigger.CFrame
 	end)
 end
-coroutine.wrap(EROPQE_fake_script)()
-local function CPSM_fake_script() -- TP4.LocalScript 
+coroutine.wrap(VCISYS_fake_script)()
+local function GNPZXZ_fake_script() -- TP4.LocalScript 
 	local script = Instance.new('LocalScript', TP4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.BlastDoor.CFrame
 	end)
 end
-coroutine.wrap(CPSM_fake_script)()
-local function URPJ_fake_script() -- TP5.LocalScript 
+coroutine.wrap(GNPZXZ_fake_script)()
+local function ODOAJT_fake_script() -- TP5.LocalScript 
 	local script = Instance.new('LocalScript', TP5)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.ControlRoomEnter.CFrame
 	end)
 end
-coroutine.wrap(URPJ_fake_script)()
-local function ANSNIKG_fake_script() -- TP6.LocalScript 
+coroutine.wrap(ODOAJT_fake_script)()
+local function BOCEHX_fake_script() -- TP6.LocalScript 
 	local script = Instance.new('LocalScript', TP6)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.BlackHoleAbsorb.CFrame
 	end)
 end
-coroutine.wrap(ANSNIKG_fake_script)()
-local function KVRLNC_fake_script() -- TP7.LocalScript 
+coroutine.wrap(BOCEHX_fake_script)()
+local function IWNGMQ_fake_script() -- TP7.LocalScript 
 	local script = Instance.new('LocalScript', TP7)
 
 	script.Parent.MouseButton1Click:Connect(function()
 	game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = game.Workspace.Detectors.EscapeDetect.CFrame
 	end)
 end
-coroutine.wrap(KVRLNC_fake_script)()
-local function CWINNV_fake_script() -- TP1_2.LocalScript 
+coroutine.wrap(IWNGMQ_fake_script)()
+local function KIHWIF_fake_script() -- TP1_2.LocalScript 
 	local script = Instance.new('LocalScript', TP1_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -524,12 +548,12 @@ local function CWINNV_fake_script() -- TP1_2.LocalScript
 	game.Players.LocalPlayer.Character.Humanoid.Health = 1000
 	end)
 end
-coroutine.wrap(CWINNV_fake_script)()
-local function RYBOQKZ_fake_script() -- Mainframe_2.LocalScript 
+coroutine.wrap(KIHWIF_fake_script)()
+local function YHHNRR_fake_script() -- Mainframe_2.LocalScript 
 	local script = Instance.new('LocalScript', Mainframe_2)
 
 	if game.PlaceId == 10881157481 then
 	script.Parent.Visible = true
 	end
 end
-coroutine.wrap(RYBOQKZ_fake_script)()
+coroutine.wrap(YHHNRR_fake_script)()
